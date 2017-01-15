@@ -162,7 +162,7 @@ public class MusicControlsNotification {
 
 		//Open app if tapped
 		Intent resultIntent = new Intent(context, cordovaActivity.getClass());
-		resultIntent.setAction(Intent.ACTION_MAIN);
+		//resultIntent.setAction(Intent.ACTION_MAIN);
 		//resultIntent.addCategory(Intent.CATEGORY_LAUNCHER);
 		startActivity(resultIntent);
 		//PendingIntent resultPendingIntent = PendingIntent.getActivity(context, 0, resultIntent, 0);
